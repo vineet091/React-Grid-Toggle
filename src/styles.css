@@ -1,0 +1,56 @@
+.App {
+  font-family: sans-serif;
+  text-align: center;
+}
+
+.grid {
+  width: 100%;
+}
+
+.btnToggleTable {
+  float: right;
+  margin-bottom: 20px;
+  padding: 6px 8px;
+  background-color: green;
+  color: #fff;
+  border: 0px;
+  cursor: pointer;
+}
+
+.table {
+  display: flex;
+  flex-grow: 1;
+  flex-direction: column;
+  width: 100%;
+}
+.table.flipped {
+  flex-direction: row;
+}
+
+.row {
+  display: flex;
+  width: 100%;
+  flex-grow: 1;
+  flex-direction: row;
+}
+.row.flipped {
+  flex-direction: column;
+  width: 25%;
+}
+.row.th {
+  font-weight: 600;
+}
+
+.col {
+  display: flex;
+  flex-grow: 1;
+  border: 1px solid #ddd;
+  border-collapse: collapse;
+  justify-content: center;
+  align-items: center;
+  height: 50px;
+  width: 25%;
+}
+.col.flipped {
+  width: 100%;
+}
